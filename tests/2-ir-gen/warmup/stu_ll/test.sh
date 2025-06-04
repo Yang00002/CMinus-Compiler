@@ -1,0 +1,10 @@
+cd ~/lab1/2024ustc-jianmu-compiler/tests/2-ir-gen/warmup/stu_ll
+lli assign_hand.ll
+echo $?
+lli fun_hand.ll
+echo $?
+lli if_hand.ll
+echo $?
+lli while_hand.ll
+echo $?
+cd -
